@@ -1,5 +1,5 @@
 //CurrencyAPI
-// https://metals-api.com/api/convert?access_key=cc3yuc93wsvnzqccf6nve619y1tngsu7p9tn46jp48ab617nyah7f1op3625&from=USD&to=INR&amount=1
+// https://metals-api.com/api/convert?access_key=<<ACCESS_KEY>>&from=USD&to=INR&amount=1
 const metalsApiCurrencyRes = {
   success: true,
   query: {
@@ -18,7 +18,7 @@ const metalsApiCurrencyRes = {
 };
 
 //GoldAPI
-//"https://metals-api.com/api/latest?access_key=cc3yuc93wsvnzqccf6nve619y1tngsu7p9tn46jp48ab617nyah7f1op3625&base=INR&symbols=XAU"
+//"https://metals-api.com/api/latest?access_key=<<ACCESS_KEY>>&base=INR&symbols=XAU"
 const metalsApiGoldRes = {
   success: true,
   timestamp: 1598292180,
