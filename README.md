@@ -1,4 +1,4 @@
-#gold-rate-automater
+# gold-rate-automater (fetches latest gold rate and send a whatsapp message every day)
 
 Background: My father asked me to update him with gold rate everyday. I thought of automating this job.
 
